@@ -1,19 +1,25 @@
-# APPIX — Studio web indépendant
+# APPIX — Site web d'APPIX Studio
 
-APPIX est un projet personnel de création web développé par YALUM. Il présente des services de création de sites vitrines, de landing pages et d’intégration front-end responsive.
+Ce dépôt contient le code du site de présentation d'APPIX Studio, un projet de création web développé en HTML, CSS et JavaScript natifs.
 
-## Découvrir le projet
+Le site présente l'approche du studio, ses prestations, une sélection de projets et un parcours de brief destiné à préparer une demande.
 
-- **Site web :** https://odd-salad-6409.yalum-appix.workers.dev
-- **Code source :** https://github.com/yalumappix/APPIX
+## Présentation
 
-## Fonctionnalités
+APPIX Studio conçoit principalement des sites vitrines, des landing pages et des refontes de sites pour les indépendants, artisans et petites entreprises.
 
-- Présentation du studio et de ses services
-- Galerie de projets avec distinction entre concepts fictifs et projet personnel
-- Navigation responsive et interactions JavaScript
-- Parcours de brief pour préciser le besoin d’un projet
-- FAQ et pages d’informations légales
+Le projet met l'accent sur :
+- une présentation claire des services ;
+- une navigation responsive ;
+- une mise en valeur des projets ;
+- un parcours de brief pour préciser les besoins ;
+- des pages d'information et une FAQ.
+
+## Découvrir les projets
+
+Le portfolio est disponible dans le dépôt [appix-studio/portfolio](https://github.com/appix-studio/portfolio).
+
+Les concepts Maison Veloria et Zorvék sont des projets de démonstration personnels, et non des commandes clients. La présentation des projets réalisés pour des clients doit respecter les autorisations obtenues.
 
 ## Technologies
 
@@ -21,34 +27,44 @@ APPIX est un projet personnel de création web développé par YALUM. Il présen
 - CSS3
 - JavaScript natif
 
+Le site est conçu sans framework front-end obligatoire.
+
 ## Structure principale
 
 | Fichier | Rôle |
 | --- | --- |
-| `index.html` | Page principale et présentation des services |
+| `index.html` | Présentation du studio et des services |
 | `style.css` | Styles et mise en page |
 | `main.js` | Interactions côté navigateur |
 | `brief.html` | Parcours de brief |
 | `mentions-legales.html` | Mentions légales |
-| `politique-confidentialite.html` | Informations de confidentialité |
-| `politique-cookies.html` | Informations relatives aux cookies |
 | `conditions-generales.html` | Conditions générales |
 | `images/` | Ressources graphiques |
-| `robots.txt` | Directives pour les robots d’indexation |
-| `sitemap.xml` | Liste des pages publiques pour les moteurs de recherche |
-| `SECURITY.md` | Procédure de signalement de sécurité |
-| `CHECKLIST-LANCEMENT.md` | Vérifications à faire avant un lancement commercial |
 
 ## Lancer en local
 
-1. Clonez le dépôt.
-2. Ouvrez `index.html` dans un navigateur, ou utilisez un serveur HTTP local statique.
-3. Testez la navigation, les interactions et le rendu sur mobile et ordinateur.
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/appix-studio/APPIX.git
+   ```
+2. Ouvrez le dossier du projet.
+3. Ouvrez `index.html` dans un navigateur ou lancez un serveur HTTP local.
 
-Le site est construit sans framework front-end obligatoire.
+Par exemple :
 
-## À propos
+```bash
+python -m http.server 8000
+```
 
-APPIX est un projet personnel de YALUM servant à présenter son travail et à expérimenter la conception et l’intégration web.
+Puis ouvrez http://localhost:8000.
 
-Les concepts présentés comme fictifs sont des exercices de démonstration et ne doivent pas être interprétés comme des références clients réelles. Toute présentation d’un projet client dépend des autorisations applicables.
+## Publication
+
+Le domaine public [appixstudio.fr](https://appixstudio.fr) est prévu pour le site final. Sa mise en ligne est en préparation ; ce dépôt constitue le code source du projet.
+
+## Contact
+
+- E-mail : [appix.web@gmail.com](mailto:appix.web@gmail.com)
+- LinkedIn : [Zumra Gokhan](https://www.linkedin.com/in/zumra-gokhan/)
+- Instagram : [@studioappix](https://www.instagram.com/studioappix/)
+- Portfolio : [appix-studio/portfolio](https://github.com/appix-studio/portfolio)
