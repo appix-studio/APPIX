@@ -1,12 +1,12 @@
-# APPIX — Site web d'APPIX Studio
+# APPIX — Site web d'MG Pixel
 
-Ce dépôt contient le code du site de présentation d'APPIX Studio, un projet de création web développé en HTML, CSS et JavaScript natifs.
+Ce dépôt contient le code du site de présentation d'MG Pixel, un projet de création web développé en HTML, CSS et JavaScript natifs.
 
 Le site présente l'approche du studio, ses prestations, une sélection de projets et un parcours de brief destiné à préparer une demande.
 
 ## Présentation
 
-APPIX Studio conçoit principalement des sites vitrines, des landing pages et des refontes de sites pour les indépendants, artisans et petites entreprises.
+MG Pixel conçoit principalement des sites vitrines, des landing pages et des refontes de sites pour les indépendants, artisans et petites entreprises.
 
 Le projet met l'accent sur :
 - une présentation claire des services ;
