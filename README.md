@@ -1,6 +1,6 @@
-# APPIX — Site web d'MG Pixel
+# APPIX — Site web de MG Pixel
 
-Ce dépôt contient le code du site de présentation d'MG Pixel, un projet de création web développé en HTML, CSS et JavaScript natifs.
+Ce dépôt contient le code du site de présentation de MG Pixel, un projet de création web développé en HTML, CSS et JavaScript natifs.
 
 Le site présente l'approche du studio, ses prestations, une sélection de projets et un parcours de brief destiné à préparer une demande.
 
